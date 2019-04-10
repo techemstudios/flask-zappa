@@ -7,8 +7,8 @@ student shall add more functionality.
 This repo illustrates a simplified approach for deploying a flask_restful (Python Flask) app on AWS API GW and Lambda. This just deploys the API portion of the api (/spam-api).
 
 ## Pre-reqs and Config?
-NEED TO DO THE SPECIAL AWS AMI TRICK IF ON CLOUD 9.
 Not really, assume you have an AWS account and just do this:
+* If on an AWS AMI (e.g. Cloud9), `unset PYTHON_INSTALL_LAYOUT`
 * `cd spam-api`
 * `virtualenv spam-api-env`
 * `source spam-api-env/bin/activate`
