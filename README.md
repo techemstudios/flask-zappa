@@ -9,7 +9,7 @@ Not really, assume you have an AWS account and just do this:
 * `virtualenv spam-api-env`
 * `source spam-api-env/bin/activate`
 * `pip install flask flask_restful zappa`
-* `zappa init`
+* Update zappa_settings.json's project_name
 
 ## Deploy
 To deploy your API, simply run:
